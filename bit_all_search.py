@@ -2,7 +2,8 @@
 N,S = map(int,input().split())
 A = list(map(int,input().split()))
 
-# ビット全探索の実装
+# ビット全探索の実装　1<<Nは2のN乗
+# x << n   xのnビット左シフト
 answer = "No"
 for i in range(0,1 << N):
     partsum = 0
