@@ -20,5 +20,6 @@ class Code_3_07_1 {
                 dp[i] = Math.min(dp[i - 1] + Math.abs(H[i - 1] - H[i]),dp[i - 2] + Math.abs(H[i - 2] - H[i]));
             }
         }
+        System.out.println(dp[N]);
     }
 }
