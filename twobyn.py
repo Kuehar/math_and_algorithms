@@ -1,3 +1,4 @@
+# P.408
 N = int(input())
 if N % 4 == 1:
     print(2)
